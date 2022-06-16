@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p><strong>Create object</strong></p>
+<form action="{{ url_for('create_item')}}" method="post">
+	<label for="item_name">Item Name:</label><br>
+	<input type="text" id="name" name="name" value=""><br>
+	<label for="item_color">Item Color:</label><br>
+	<input type="text" id="color" name="color" value=""><br><br>
+	<input type="submit" value="Create object">
+</form>
+{% endblock %}

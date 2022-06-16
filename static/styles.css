@@ -1,0 +1,165 @@
+.has-text-monospaced {
+  font-family: monospace;
+}
+html, body {
+  margin:0;
+  height:100%;
+}
+
+.main {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.main-table {
+  align-self: center;
+  position: relative;
+margin: 30px;
+font-size: 20px;
+}
+
+.main-table th {
+border-bottom: 1pt solid grey;
+padding: 10px;
+}
+
+
+.main-table td {
+border-bottom: 1pt solid grey;
+padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+ background-image: url("grad.jpg");
+ width:100%;
+  height:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_content {
+  padding: 15px;
+  margin: 0 auto;
+  width: max-content;
+background-color: rgb(146, 192, 222, 0.8);
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+select {
+      width: 140px;
+      height: 35px;
+      padding: 4px;
+      border-radius:4px;
+      box-shadow: 2px 2px 8px #999;
+      background: #eee;
+      border: none;
+      outline: none;
+      display: inline-block;
+      -webkit-appearance:none;
+      -moz-appearance: none;
+      cursor: pointer;
+margin: 10px;
+      }
+
+.btn {
+  background-color: #eee;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: fit-content;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #f7fafa;
+}
+
+.btn:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+nav {
+left: 10%;
+width: 80%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+  margin-bottom: 10px;
+}
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+.specificity_form {
+  margin: 0 auto;
+display: flex;
+align-items: center;
+
+  margin-left: 35%;
+    margin-right:25%;
+    width: 50%;
+}
+
+.checkboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: max-content;
+  padding: 5px;
+}
+.checkboxes input {
+margin-right: 10px;
+}
+
+.conflict_form {
+    display:inline-block;
+    margin:1em;
+}
+
+.conflict {
+display: flex;
+justify-content: center;
+}
+
+.result {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px
+}
+
+p#criteria-header {
+text-align: center;
+}

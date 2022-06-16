@@ -1,0 +1,6 @@
+{
+	"DEBUG": "True",
+	"CONTEST_MEMBER_ID": "linux-##-##@vntu.vn.ua",
+	"SQLALCHEMY_DATABASE_URI": "sqlite:///:memory:",
+	"SQLALCHEMY_TRACK_MODIFICATIONS": "False"
+}
